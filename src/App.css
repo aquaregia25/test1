@@ -1,38 +1,166 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  /* font-family: 'Damion', cursive; */
+  /* font-size: 14px; */
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  
+  overflow-x: hidden;
+
+}
+.navbar{
+  color: white !important;
+
+  /* font-size: xx-large !important; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+footer{
+  background-color: #302f2f;
   color: white;
+  padding-top: 50px;
+  width: 100vw;
+}
+.foot{
+  display: flex;
+  flex-direction: row;
+
+  padding-top:  30px;
+  margin: auto;
+
+
+  margin-bottom: 60px;
+  justify-content: space-between;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.main-menu{
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.main-menu ul li a:hover{
+  color: #c79c60 !important;
+}
+
+.about-us{
+  width: 41.77%;
+}
+
+.social{
+  width: 33.33%;
+}
+
+.footer-div-title {
+color: white;
+font-size: 21px;
+font-weight: 700;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+.social-icon {
+background-color: #505050;
+color: white;
+display: inline-block;
+font-size: 20px;
+transition: all 0.3s ease;
+width: 35px;
+height: 35px;
+border-radius: 2px;
+text-align: center;
+padding-top: 4px;
+margin-right: 10px;
+}
+
+.social-icon:hover{
+background-color: #bb894e;
+}
+
+.social-icon i{
+color: white;
+}
+
+@media(max-width: 992px){
+.foot{
+  flex-direction: column;
+}
+
+.main-menu{
+  width: 100%;
+}
+
+.about-us{
+  width: 100%;
+}
+
+.social{
+  width: 100%;
+}
+}
+
+.foot-footer{
+position: relative;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+height: 76.8px;
+width: 100vw;
+background: white;
+color: black;
+font-weight: 100;
+font-size: 16px;
+text-align: center;
+}
+
+ul{
+  list-style-type: none;
+   padding-left: 0
+}
+.social-icons{
+  margin-top: 25px; min-width: 300px ;
+}
+
+
+
+
+.litag,a{
+  text-decoration: none; 
+ 
+}
+.litag a{
+  color: white !important;
+}
+@media(min-width:800px)
+{
+  #postform{
+    width: 60% !important;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  /* #username,#text{
+    width: 60% !important;
+  } */
+
+}
+
+#postform{
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 2vh 0;
+  padding: 2vh;
+  background-color: whitesmoke;
+}
+
+hr{
+  background-color: #007585;
+  
+  margin: 5px;
+}
+textarea{
+  height:10vh;
 }
