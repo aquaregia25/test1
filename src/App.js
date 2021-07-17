@@ -14,7 +14,7 @@ function App() {
 <Router>
  <Navbar></Navbar>
  <Switch>
-   <Route exact path='/'><Dash></Dash></Route>
+   <Route exact path='/react-todo'><Dash></Dash></Route>
    <Route exact path='/Signin'> <Signin></Signin></Route>
    <Route exact path='/Signup'> <Signup></Signup></Route>
  
