@@ -139,7 +139,7 @@ ul{
 }
 @media(min-width:800px)
 {
-  #postform{
+  .postform{
     width: 60% !important;
   }
   /* #username,#text{
@@ -148,7 +148,7 @@ ul{
 
 }
 
-#postform{
+.postform{
   border: 2px solid black;
   border-radius: 10px;
   margin: 2vh 0;
